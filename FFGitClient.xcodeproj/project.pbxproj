@@ -11,7 +11,80 @@
 		A904265B2284CD9F002EBDDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904265A2284CD9F002EBDDD /* ViewController.swift */; };
 		A904265D2284CDA0002EBDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A904265C2284CDA0002EBDDD /* Assets.xcassets */; };
 		A90426602284CDA0002EBDDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A904265E2284CDA0002EBDDD /* Main.storyboard */; };
+		A90426852284CEFA002EBDDD /* SwiftGit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90426752284CEDD002EBDDD /* SwiftGit2.framework */; };
+		A904268F2284D2CC002EBDDD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904268E2284D2CC002EBDDD /* main.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90426742284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEB31F231A0D6F7A00F525B9;
+			remoteInfo = "SwiftGit2-OSX";
+		};
+		A90426762284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEB31F2E1A0D6F7A00F525B9;
+			remoteInfo = "SwiftGit2-OSXTests";
+		};
+		A90426782284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 621E66B41C72958800A0F352;
+			remoteInfo = "SwiftGit2-iOS";
+		};
+		A904267A2284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 621E66CE1C72958D00A0F352;
+			remoteInfo = "SwiftGit2-iOSTests";
+		};
+		A904267C2284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEB31F8F1A0E563900F525B9;
+			remoteInfo = "libgit2-OSX";
+		};
+		A904267E2284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 621E66E11C729CE500A0F352;
+			remoteInfo = "libgit2-iOS";
+		};
+		A90426802284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 621E66EC1C729EB800A0F352;
+			remoteInfo = "OpenSSL-iOS";
+		};
+		A90426822284CEDD002EBDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 621E66F21C729EBB00A0F352;
+			remoteInfo = "libssh2-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A904268A2284D2CC002EBDDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A90426552284CD9F002EBDDD /* FFGitClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFGitClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +94,21 @@
 		A904265F2284CDA0002EBDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A90426612284CDA0002EBDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90426622284CDA0002EBDDD /* FFGitClient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FFGitClient.entitlements; sourceTree = "<group>"; };
+		A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftGit2.xcodeproj; path = SwiftGit2/SwiftGit2.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A904268C2284D2CC002EBDDD /* FFGitClientTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FFGitClientTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		A904268E2284D2CC002EBDDD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A90426522284CD9F002EBDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90426852284CEFA002EBDDD /* SwiftGit2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90426892284D2CC002EBDDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				A90426572284CD9F002EBDDD /* FFGitClient */,
+				A904268D2284D2CC002EBDDD /* FFGitClientTool */,
 				A90426562284CD9F002EBDDD /* Products */,
+				A90426842284CEFA002EBDDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				A90426552284CD9F002EBDDD /* FFGitClient.app */,
+				A904268C2284D2CC002EBDDD /* FFGitClientTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,8 +146,39 @@
 				A904265E2284CDA0002EBDDD /* Main.storyboard */,
 				A90426612284CDA0002EBDDD /* Info.plist */,
 				A90426622284CDA0002EBDDD /* FFGitClient.entitlements */,
+				A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */,
 			);
 			path = FFGitClient;
+			sourceTree = "<group>";
+		};
+		A90426692284CEDD002EBDDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90426752284CEDD002EBDDD /* SwiftGit2.framework */,
+				A90426772284CEDD002EBDDD /* SwiftGit2-OSXTests.xctest */,
+				A90426792284CEDD002EBDDD /* SwiftGit2.framework */,
+				A904267B2284CEDD002EBDDD /* SwiftGit2-iOSTests.xctest */,
+				A904267D2284CEDD002EBDDD /* libgit2.a */,
+				A904267F2284CEDD002EBDDD /* libgit2.a */,
+				A90426812284CEDD002EBDDD /* libssl.a */,
+				A90426832284CEDD002EBDDD /* libssh2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90426842284CEFA002EBDDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A904268D2284D2CC002EBDDD /* FFGitClientTool */ = {
+			isa = PBXGroup;
+			children = (
+				A904268E2284D2CC002EBDDD /* main.swift */,
+			);
+			path = FFGitClientTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +201,23 @@
 			productReference = A90426552284CD9F002EBDDD /* FFGitClient.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A904268B2284D2CC002EBDDD /* FFGitClientTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90426902284D2CC002EBDDD /* Build configuration list for PBXNativeTarget "FFGitClientTool" */;
+			buildPhases = (
+				A90426882284D2CC002EBDDD /* Sources */,
+				A90426892284D2CC002EBDDD /* Frameworks */,
+				A904268A2284D2CC002EBDDD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFGitClientTool;
+			productName = FFGitClientTool;
+			productReference = A904268C2284D2CC002EBDDD /* FFGitClientTool */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +229,9 @@
 				ORGANIZATIONNAME = "Bill Gestrich";
 				TargetAttributes = {
 					A90426542284CD9F002EBDDD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A904268B2284D2CC002EBDDD = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -109,12 +247,78 @@
 			mainGroup = A904264C2284CD9F002EBDDD;
 			productRefGroup = A90426562284CD9F002EBDDD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A90426692284CEDD002EBDDD /* Products */;
+					ProjectRef = A90426682284CEDD002EBDDD /* SwiftGit2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A90426542284CD9F002EBDDD /* FFGitClient */,
+				A904268B2284D2CC002EBDDD /* FFGitClientTool */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A90426752284CEDD002EBDDD /* SwiftGit2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftGit2.framework;
+			remoteRef = A90426742284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A90426772284CEDD002EBDDD /* SwiftGit2-OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftGit2-OSXTests.xctest";
+			remoteRef = A90426762284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A90426792284CEDD002EBDDD /* SwiftGit2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftGit2.framework;
+			remoteRef = A90426782284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A904267B2284CEDD002EBDDD /* SwiftGit2-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftGit2-iOSTests.xctest";
+			remoteRef = A904267A2284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A904267D2284CEDD002EBDDD /* libgit2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgit2.a;
+			remoteRef = A904267C2284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A904267F2284CEDD002EBDDD /* libgit2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgit2.a;
+			remoteRef = A904267E2284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A90426812284CEDD002EBDDD /* libssl.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libssl.a;
+			remoteRef = A90426802284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A90426832284CEDD002EBDDD /* libssh2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libssh2.a;
+			remoteRef = A90426822284CEDD002EBDDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A90426532284CD9F002EBDDD /* Resources */ = {
@@ -135,6 +339,14 @@
 			files = (
 				A904265B2284CD9F002EBDDD /* ViewController.swift in Sources */,
 				A90426592284CD9F002EBDDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A90426882284D2CC002EBDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A904268F2284D2CC002EBDDD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +517,26 @@
 			};
 			name = Release;
 		};
+		A90426912284D2CC002EBDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K844XFC6W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A90426922284D2CC002EBDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K844XFC6W;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -322,6 +554,15 @@
 			buildConfigurations = (
 				A90426662284CDA0002EBDDD /* Debug */,
 				A90426672284CDA0002EBDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90426902284D2CC002EBDDD /* Build configuration list for PBXNativeTarget "FFGitClientTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90426912284D2CC002EBDDD /* Debug */,
+				A90426922284D2CC002EBDDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
